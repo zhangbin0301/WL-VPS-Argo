@@ -363,7 +363,7 @@ install_naray(){
         CF_IP=${CF_IP:-"ip.sb"}
         echo -e -n "${GREEN}节点上传TG,格式: "CHAT_ID BOT_TOKEN（558914831 5824972634:AAGJG-FBAgPljwpnlnD8Lk5Pm2r1QbSk1AI ）": ${PLAIN}"
         read TG
-        CHAT_ID TG=${TG:-"558914831 5824972634:AAGJG-FBAgPljwpnlnD8Lk5Pm2r1QbSk1AI"}        
+        TG=${TG:-"558914831 5824972634:AAGJG-FBAgPljwpnlnD8Lk5Pm2r1QbSk1AI"}        
     }
 
     install_config2(){

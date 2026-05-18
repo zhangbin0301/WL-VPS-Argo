@@ -336,9 +336,9 @@ install_naray(){
         read SUB_NAME
         SUB_NAME=${SUB_NAME:-"vps"}
 
-        echo -e -n "${GREEN}请输入 NEZHA_SERVER (nazhav1.gamesover.eu.org:443): ${PLAIN}"
+        echo -e -n "${GREEN}请输入 NEZHA_SERVER (nazhav2.gamesover.eu.org:443): ${PLAIN}"
         read NEZHA_SERVER
-        NEZHA_SERVER=${NEZHA_SERVER:-"nazhav1.gamesover.eu.org:443"}
+        NEZHA_SERVER=${NEZHA_SERVER:-"nazhav2.gamesover.eu.org:443"}
 
         echo -e -n "${GREEN}请输入NEZHA_KEY (qL7B61misbNGiLMBDxXJSBztCna5Vwsy): ${PLAIN}"
         read NEZHA_KEY
